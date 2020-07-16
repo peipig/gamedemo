@@ -1,0 +1,1367 @@
+Weapons:
+    §2普通菜刀:
+        Type: IRON_PICKAXE:104
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        UniqueId: true
+        unbreakable: true
+        lootpack: true
+        Damage: 6
+        Level: 1
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f1
+            §2武器傷害： §a25
+            §f----------------------------------------
+            §9刀類武器技能介紹：每次攻擊有35%機率
+            §9造成武器傷害(0.9)+肉搏(0.5)額外物理傷害
+            §f----------------------------------------
+    §2粗製短劍:
+        Type: IRON_PICKAXE:107
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 10
+        Level: 5
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f5
+            §2武器傷害： §a30
+            §f----------------------------------------
+            §9刀類武器技能介紹：每次攻擊有35%機率
+            §9造成武器傷害(0.9)+肉搏(0.5)額外物理傷害
+            §f----------------------------------------
+    §2隨身小匕首:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        UniqueId: true
+        Damage: 20
+        Level: 1
+        Sweep: false
+        unbreakable: true
+        Bind: true
+        Reparation: false
+        lootpack: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f1
+            §2武器傷害： §a20
+            §f----------------------------------------
+            §9匕首武器技能介紹：背刺傷害增加50%
+            §f----------------------------------------
+    §9蠻族巨斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.4
+        Distance: 3.5
+        ChargeTime: 1.8
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        UniqueId: true
+        Damage: 56
+        Level: 1
+        Bind: true
+        Reparation: false
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f1
+            §2武器傷害： §a56
+            §f----------------------------------------
+            §9變種人戰士們常使用的巨大斧頭
+            §9斧類武器技能介紹：每5秒攻擊可造成
+            §9肉搏x0.9的持續性物理傷害，持續9秒
+            §f----------------------------------------
+################各種族新手任務給的武器  人類: 手槍  變種人 雙手斧頭  合成人 雷射手槍
+#################################10~20 DPS 20 +60
+    §2生鏽的短刺刀:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 30
+        Level: 12
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f12
+            §2武器傷害： §a30
+            §f----------------------------------------
+            §9匕首武器技能介紹：背刺傷害增加50%
+            §f----------------------------------------
+    §2破損短弓:
+        Type: BOW:1
+        Damage: 90
+        Level: 11
+        UniqueId: true
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f11
+            §2基本傷害： §a90
+            §f----------------------------------------
+            §9弓箭武器技能介紹：射擊可提升弓箭傷害
+            §9亦可同時提高暴擊機率
+            §f----------------------------------------
+    §2研磨強化石刀:
+        Type: IRON_PICKAXE:107
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        Damage: 40
+        Level: 12
+        UniqueId: true
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f12
+            §2武器傷害： §a40
+            §f----------------------------------------
+            §9刀類武器技能介紹：每次攻擊有35%機率
+            §9造成武器傷害(0.9)+肉搏(0.5)額外物理傷害
+            §f----------------------------------------
+    §2自製的簡易長槍:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.2
+        Distance: 4.8
+        ChargeTime: 1.3
+        KnockBack: 0.4
+        TwoHand: true
+        Damage: 106
+        Attributes: IGNORE_ARMOR 150
+        Level: 13
+        UniqueId: true
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f13
+            §2武器傷害： §a106
+            §f----------------------------------------
+            §9長柄武器技能介紹：擁有更長的攻擊距離
+            §9並且獲得15%穿透屬性
+            §f----------------------------------------
+    §2粗製石斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.0
+        Distance: 3.5
+        ChargeTime: 1.0
+        KnockBack: 0.8
+        OnHitSpell: twohand_axe_spell
+        Damage: 88
+        UniqueId: true
+        lootpack: true
+        Level: 14
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f14
+            §2武器傷害： §a88
+            §f----------------------------------------
+            §9斧頭武器技能介紹：每次攻擊有30%機率
+            §9造成肉搏X(0.54)持續性物理傷害，持續6秒
+            §f----------------------------------------
+    §2檀木大球棒:
+        Type: IRON_PICKAXE:179
+        Modifier: STR 1.7
+        Distance: 3.5
+        ChargeTime: 1.8
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        UniqueId: true
+        Damage: 100
+        lootpack: true
+        Level: 11
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f11
+            §2武器傷害： §a100
+            §f----------------------------------------
+            §9雙手鈍器武器技能介紹：每4.5秒的一次攻擊
+            §9可暈眩敵人1.5秒
+            §f----------------------------------------
+########################################20~30 +80
+    §2染血的鋼鐵匕首:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        lootpack: true
+        UniqueId: true
+        Damage: 40
+        Level: 21
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f21
+            §2武器傷害： §a40
+            §f----------------------------------------
+            §9匕首武器技能介紹：背刺傷害增加50%
+            §f----------------------------------------
+    §2硬木盾:
+        Type: Shield
+        Attributes: MAXHEALTH 60
+        block: 60
+        KnockBack: 0.2
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Level: 24
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f24
+            §2增加血量： 60
+            §f----------------------------------------
+            §9盾牌技能介紹：在副手持盾時，可右鍵舉起
+            §9盾牌，阻擋大部分的攻擊
+            §f----------------------------------------
+    §2鐵製短刀:
+        Type: IRON_PICKAXE:107
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 50
+        Level: 24
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f24
+            §2武器傷害： §a50
+            §f----------------------------------------
+            §9刀類武器技能介紹：每次攻擊有35%機率
+            §9造成武器傷害(0.9)+肉搏(0.5)額外物理傷害
+            §f----------------------------------------
+    §2染血大斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.4
+        Distance: 3.5
+        ChargeTime: 1.5
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 110
+        Level: 22
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f22
+            §2武器傷害： §a110
+            §f----------------------------------------
+            §9斧類武器技能介紹：每5秒攻擊可造成
+            §9肉搏x0.9的持續性物理傷害，持續9秒
+            §f----------------------------------------
+##########################################20~30副本 +120
+    §9紅橡木弓:
+        Type: BOW:1
+        Damage: 142
+        Level: 27
+        Bind: true
+        Reparation: false
+        lootpack: true
+        unbreakable: true
+        UniqueId: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f27
+            §2基本傷害： §a142
+            §f----------------------------------------
+            §9弓箭武器技能介紹：射擊可提升弓箭傷害
+            §9亦可同時提高暴擊機率
+            §f----------------------------------------
+    §9武士刀:
+        Type: IRON_PICKAXE:103
+        Modifier: STR 1.2
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.4
+        OnHitSpell: onehand_sword_spell
+        UniqueId: true
+        lootpack: true
+        Damage: 80
+        Level: 25
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f25
+            §2武器傷害： §a80
+            §f----------------------------------------
+            §9刀類武器技能介紹：每次攻擊有35%機率
+            §9造成武器傷害(0.9)+肉搏(0.5)額外物理傷害
+            §f----------------------------------------
+    §9斧刃長槍:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.2
+        Distance: 4.8
+        ChargeTime: 1.3
+        KnockBack: 0.4
+        lootpack: true
+        TwoHand: true
+        UniqueId: true
+        Damage: 165
+        Attributes: IGNORE_ARMOR 150
+        Level: 26
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f26
+            §2武器傷害： §a165
+            §f----------------------------------------
+            §9長柄武器技能介紹：擁有更長的攻擊距離
+            §9每六秒一次普通攻擊可附帶肉搏(0.6)真實傷害
+            §f----------------------------------------
+    §9強鋼大榔頭:
+        Type: IRON_PICKAXE:102
+        Modifier: STR 1.7
+        Distance: 3.5
+        ChargeTime: 2.4
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        UniqueId: true
+        Damage: 170
+        lootpack: true
+        Level: 25
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f25
+            §2武器傷害： §a170
+            §f----------------------------------------
+            §9雙手鈍器武器技能介紹：每4.5秒攻擊可造成
+            §9敵人暈眩1.5秒
+            §f----------------------------------------
+    §9神木剋星:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.4
+        Distance: 3.5
+        ChargeTime: 1.5
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 158
+        Level: 26
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧頭
+            §2等級需求： §f26
+            §2武器傷害： §a158
+            §f----------------------------------------
+            §9斧類武器技能介紹：每5秒攻擊可造成
+            §9肉搏x0.9的持續性物理傷害，持續9秒
+            §f----------------------------------------
+#######################################30~40 +150
+    §2強化短刃:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 70
+        Level: 33
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f33
+            §2武器傷害： §a70
+            §f----------------------------------------
+    §2鉤型砍刀:
+        Type: IRON_PICKAXE:106
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 80
+        Level: 32
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f32
+            §2武器傷害： §a80
+            §f----------------------------------------
+    §2修補過的短弓:
+        Type: BOW:2
+        Damage: 245
+        Level: 34
+        unbreakable: true
+        UniqueId: true
+        lootpack: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f34
+            §2基本傷害： §a245
+            §f----------------------------------------
+    §2金屬盾:
+        Type: Shield
+        Attributes: MAXHEALTH 120
+        block: 60
+        KnockBack: 0.2
+        TwoHand: false
+        UniqueId: true
+        Level: 35
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f35
+            §2盾牌屬性： §f血量 +120
+            §f----------------------------------------
+    §2騎士的騎乘刺槍:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.2
+        Distance: 4.8
+        ChargeTime: 1.4
+        KnockBack: 0.5
+        UniqueId: true
+        TwoHand: true
+        lootpack: true
+        Damage: 180
+        Attributes: IGNORE_ARMOR 150
+        Level: 31
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長槍
+            §2等級需求： §f31
+            §2武器傷害： §a180
+            §f----------------------------------------
+#######################################30~40 副本 +170
+    §9毒染小刀:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        UniqueId: true
+        Damage: 88
+        Level: 43
+        lootpack: true
+        Bind: true
+        Sweep: false
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f43
+            §2武器傷害： §a88
+            §f----------------------------------------
+    §9鋼鐵大斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.4
+        Distance: 3.5
+        ChargeTime: 1.5
+        KnockBack: 0.5
+        UniqueId: true
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        Damage: 190
+        Bind: true
+        lootpack: true
+        Level: 36
+        unbreakable: true
+        Reparation: false
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f36
+            §2武器傷害： §a190
+            §f----------------------------------------
+    §9冷光能量劍:
+        Type: DIAMOND_SWORD
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        UniqueId: true
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        Damage: 101
+        lootpack: true
+        Level: 38
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f38
+            §2武器傷害： §a101
+            §f----------------------------------------
+            §9看似個高科技產品，劍身充滿能量
+            §9特別輕巧。
+            §f----------------------------------------
+#######################################40~50 +200
+    §2精鐵匕首:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        Damage: 100
+        lootpack: true
+        UniqueId: true
+        Level: 43
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f43
+            §2武器傷害： §a100
+            §f----------------------------------------
+    §2合金長刺矛:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.2
+        Distance: 4.8
+        ChargeTime: 1.4
+        KnockBack: 0.4
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 289
+        Attributes: IGNORE_ARMOR 150
+        Level: 41
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f41
+            §2武器傷害： §a289
+            §f----------------------------------------
+    §2鋒刃刺針劍:
+        Type: IRON_PICKAXE:107
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        lootpack: true
+        UniqueId: true
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        Damage: 245
+        Level: 42
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f42
+            §2武器傷害： §a120
+            §f----------------------------------------
+#######################################40~50 副本 +220
+    §9金屬球棒:
+        Type: IRON_PICKAXE:179
+        Modifier: STR 1.7
+        Distance: 3.5
+        ChargeTime: 1.6
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 315
+        Level: 47
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2持用類別： §f重型
+            §2武器類別： §f鈍器
+            §2等級需求： §f47
+            §2武器傷害： §a315
+            §f----------------------------------------
+    §9合金大盾:
+        Type: Shield
+        Attributes: MAXHEALTH 220
+        block: 60
+        KnockBack: 0.2
+        UniqueId: true
+        TwoHand: false
+        lootpack: true
+        Level: 45
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f45
+            §2屬性增加： §f血量 +220
+            §f----------------------------------------
+    §9黑檀木弓:
+        Type: BOW:2
+        Damage: 312
+        Level: 46
+        Bind: true
+        UniqueId: true
+        lootpack: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f46
+            §2基本傷害： §a312
+            §f----------------------------------------
+    §9命運之劍:
+        Type: IRON_PICKAXE:103
+        Modifier: STR 1.2
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.4
+        lootpack: true
+        UniqueId: true
+        OnHitSpell: onehand_sword_spell
+        TwoHand: true
+        Damage: 245
+        Level: 45
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f45
+            §2武器傷害： §a245
+            §f----------------------------------------
+#######################################50~60 +250
+    §2磁力場盾牌:
+        Type: Shield
+        Attributes: MAXHEALTH 250
+        block: 60
+        UniqueId: true
+        KnockBack: 0.2
+        TwoHand: false
+        lootpack: true
+        Level: 50
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f50
+            §2屬性增加： §f血量 +250
+            §f----------------------------------------
+    §2火箭巨鎚:
+        Type: IRON_PICKAXE:102
+        Modifier: STR 1.7
+        UniqueId: true
+        Distance: 3.5
+        ChargeTime: 1.6
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        lootpack: true
+        Damage: 315
+        Level: 50
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f50
+            §2武器傷害： §a315
+            §f----------------------------------------
+    §2磁力科技弓:
+        Type: BOW:3
+        UniqueId: true
+        Damage: 310
+        Level: 53
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f53
+            §2基本傷害： §a310
+            §f----------------------------------------
+    §2電磁能量長矛:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.2
+        Distance: 4.8
+        UniqueId: true
+        ChargeTime: 1.4
+        KnockBack: 0.4
+        lootpack: true
+        TwoHand: true
+        Damage: 310
+        Attributes: IGNORE_ARMOR 150
+        Level: 51
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f51
+            §2武器傷害： §a310
+            §f----------------------------------------
+    §2雙手大砍刀:
+        Type: IRON_PICKAXE:182
+        Modifier: STR 1.2
+        UniqueId: true
+        lootpack: true
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.4
+        OnHitSpell: onehand_sword_spell
+        TwoHand: true
+        Damage: 298
+        Level: 52
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f52
+            §2武器傷害： §a298
+            §f----------------------------------------
+    §2突變木長弓:
+        Type: BOW:2
+        Damage: 290
+        UniqueId: true
+        lootpack: true
+        Level: 53
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f53
+            §2基本傷害： §a290
+            §f----------------------------------------
+#######################################50~60 副本 +280
+    §9廢土盜王匕首:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        UniqueId: true
+        lootpack: true
+        TwoHand: false
+        Damage: 170
+        Level: 52
+        Bind: true
+        Reparation: false
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f52
+            §2武器傷害： §a170
+            §f----------------------------------------
+    §9部落首領大斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.4
+        Distance: 3.5
+        UniqueId: true
+        ChargeTime: 1.5
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        Damage: 300
+        lootpack: true
+        Level: 52
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f52
+            §2武器傷害： §a300
+            §f----------------------------------------
+            §9只有變種人部落酋長才有資格揮舞的武器
+            §f----------------------------------------
+    §9沉重的碎顱棒:
+        Type: IRON_PICKAXE:102
+        Modifier: STR 1.7
+        Distance: 3.5
+        UniqueId: true
+        ChargeTime: 1.6
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        Damage: 320
+        lootpack: true
+        Level: 53
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f53
+            §2武器傷害： §a320
+            §f----------------------------------------
+    §9將軍指揮刀:
+        Type: IRON_PICKAXE:103
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        UniqueId: true
+        KnockBack: 0.3
+        lootpack: true
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        Damage: 188
+        Level: 50
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2持用類別： §f輕型
+            §2武器類別： §f長刀
+            §2等級需求： §f50
+            §2武器傷害： §a188
+            §f----------------------------------------
+            §9做工十分精細且銳利。
+            §f----------------------------------------
+    §9裂骨長弓:
+        Type: BOW:2
+        Damage: 340
+        Level: 53
+        UniqueId: true
+        lootpack: true
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f53
+            §2基本傷害： §a340
+            §f----------------------------------------
+#######################################50~60 英雄副本 +350
+    §9尖端科技長刺槍:
+        Type: IRON_PICKAXE:105
+        UniqueId: true
+        Modifier: STR 1.2
+        Distance: 4.8
+        ChargeTime: 1.4
+        KnockBack: 0.4
+        TwoHand: true
+        lootpack: true
+        Damage: 310
+        Attributes: IGNORE_ARMOR 150
+        Level: 58
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f58
+            §2武器傷害： §a310
+            §f----------------------------------------
+            §9傳聞為戰神-圖勒使用的長槍。
+            §f----------------------------------------
+    §9尖端科技長弓:
+        Type: BOW:3
+        UniqueId: true
+        lootpack: true
+        Damage: 410
+        Level: 58
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f58
+            §2基本傷害： §a410
+            §f----------------------------------------
+    §9負壓抗擊盾:
+        Type: Shield
+        UniqueId: true
+        lootpack: true
+        Attributes: MAXHEALTH 300
+        block: 60
+        KnockBack: 0.2
+        TwoHand: false
+        Level: 58
+        Reparation: false
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f58
+            §2屬性增加： §f血量 +300
+            §f----------------------------------------
+    §9尖端科技匕首:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.4
+        Distance: 3.0
+        ChargeTime: 0.4
+        UniqueId: true
+        lootpack: true
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        Damage: 220
+        Level: 58
+        Bind: true
+        Reparation: false
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f58
+            §2武器傷害： §a220
+            §f----------------------------------------
+    §9尖端科技磁刀:
+        Type: IRON_PICKAXE:106
+        Modifier: STR 0.8
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        UniqueId: true
+        lootpack: true
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        Damage: 245
+        Level: 58
+        Reparation: false
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f58
+            §2武器傷害： §a245
+            §f----------------------------------------
+    §9尖端科技巨斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.4
+        Distance: 3.5
+        ChargeTime: 1.5
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        lootpack: true
+        UniqueId: true
+        Damage: 398
+        Level: 60
+        Bind: true
+        Reparation: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f60
+            §2武器傷害： §a398
+            §f----------------------------------------
+            §9喀西瓦在祖靈之戰時，曾附身在一個人類
+            §9身上，當時所持用的武器便是這把巨大的
+            §9鑽鋼斧頭，戰後該武器便下落不明，沒有
+            §9人在看過，直到現在......
+            §f----------------------------------------
+    §9尖端科技巨鎚:
+        Type: IRON_PICKAXE:102
+        Modifier: STR 1.7
+        Distance: 3.5
+        ChargeTime: 1.6
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        lootpack: true
+        UniqueId: true
+        Reparation: false
+        Damage: 400
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f60
+            §2武器傷害： §a400
+            §f----------------------------------------
+            §9傳說中太陽神塔涅所持用的巨大戰錘。
+            §9沒有其敲不碎的盔甲。
+            §f----------------------------------------
+##############################60頂+450
+    §5核磁動力弓:
+        Type: BOW:3
+        Damage: 470
+        Enchantments: DURABILITY:10
+        Level: 60
+        UniqueId: true
+        lootpack: true
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f60
+            §2基本傷害： §a470
+            §f----------------------------------------
+            §9充滿高科技風格的弓箭
+            §9用核能核心提供使用者只需輕輕拉弓便能
+            §9產生極大的力道！
+            §f----------------------------------------
+    §5鑽鋼合金盾:
+        Type: Shield
+        Enchantments: DURABILITY:10
+        Attributes: MAXHEALTH 500
+        block: 60
+        UniqueId: true
+        lootpack: true
+        KnockBack: 0.2
+        TwoHand: false
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f60
+            §2屬性： §a血量 +500
+            §f----------------------------------------
+            §9使用材質最為堅硬的鑽鋼合金打造而成！
+            §f----------------------------------------
+###e改成只增加血量
+    §5鑽鋼合金長刀:
+        Type: IRON_PICKAXE:107
+        Modifier: STR 0.9
+        Distance: 3.5
+        ChargeTime: 0.7
+        lootpack: true
+        KnockBack: 0.3
+        UniqueId: true
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        Damage: 350
+        Enchantments: DURABILITY:50
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f60
+            §2武器傷害： §a350
+            §f----------------------------------------
+            §9使用材質最為堅硬的鑽鋼合金打造而成！
+            §f----------------------------------------
+    §5核動能伸縮長槍:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.4
+        Distance: 4.8
+        ChargeTime: 1.4
+        KnockBack: 0.4
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 425
+        Attributes: IGNORE_ARMOR 150
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f60
+            §2武器傷害： §a425
+            §f----------------------------------------
+            §9使用材質最為堅硬的鑽鋼合金打造而成！
+            §f----------------------------------------
+    §5鑽鋼合金匕首:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.6
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 270
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f60
+            §2武器傷害： §a270
+            §f----------------------------------------
+            §9使用材質最為堅硬的鑽鋼合金打造而成！
+            §f----------------------------------------
+    §5核動能巨鎚:
+        Type: IRON_PICKAXE:102
+        Modifier: STR 2
+        Distance: 3.5
+        ChargeTime: 2
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 642
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f60
+            §2武器傷害： §a642
+            §f----------------------------------------
+            §9充滿高科技風格的大型進戰武器
+            §9用核能核心提供強大揮動力量與破壞力
+            §f----------------------------------------
+    §5核動能巨斧:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.6
+        Distance: 3.5
+        ChargeTime: 1.6
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 580
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f60
+            §2武器傷害： §a580
+            §f----------------------------------------
+            §9充滿高科技風格的大型進戰武器
+            §9用核能核心提供強大揮動力量與破壞力
+            §f----------------------------------------
+    §6黎明先鋒:
+        Type: IRON_PICKAXE:103
+        Modifier: STR 0.9
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 510
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f60
+            §2武器傷害： §a510
+            §f----------------------------------------
+    §6廢土霸權:
+        Type: IRON_PICKAXE:98
+        Modifier: STR 1.6
+        Distance: 3.5
+        ChargeTime: 1.6
+        KnockBack: 0.5
+        OnHitSpell: twohand_axe_spell
+        TwoHand: true
+        UniqueId: true
+        lootpack: true
+        Damage: 780
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f斧
+            §2等級需求： §f60
+            §2武器傷害： §a780
+            §f----------------------------------------
+    §6落日神錘:
+        Type: IRON_PICKAXE:102
+        Modifier: STR 2
+        Distance: 3.5
+        ChargeTime: 2
+        KnockBack: 0.6
+        OnHitSpell: twohand_hammer_spell
+        TwoHand: true
+        Damage: 858
+        lootpack: true
+        UniqueId: true
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f鈍器
+            §2等級需求： §f60
+            §2武器傷害： §a858
+            §f----------------------------------------
+    §6漁火龍槍:
+        Type: IRON_PICKAXE:105
+        Modifier: STR 1.4
+        Distance: 4.8
+        ChargeTime: 1.4
+        KnockBack: 0.4
+        TwoHand: true
+        Damage: 602
+        Attributes: IGNORE_ARMOR 150
+        Enchantments: DURABILITY:10
+        Level: 60
+        UniqueId: true
+        lootpack: true
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f長柄武器
+            §2等級需求： §f60
+            §2武器傷害： §a602
+            §f----------------------------------------
+    §6災厄與死亡:
+        Type: IRON_PICKAXE:99
+        Modifier: STR 0.6
+        Distance: 3.0
+        ChargeTime: 0.4
+        KnockBack: 0.2
+        Attributes: BackstabBonusDamage 50
+        TwoHand: false
+        Damage: 400
+        Enchantments: DURABILITY:10
+        Level: 60
+        UniqueId: true
+        lootpack: true
+        Bind: true
+        Sweep: false
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f匕首
+            §2等級需求： §f60
+            §2武器傷害： §a400
+            §f----------------------------------------
+    §6暗影之星:
+        Type: BOW:3
+        Damage: 540
+        Enchantments: DURABILITY:10
+        Level: 60
+        UniqueId: true
+        Bind: true
+        lootpack: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f弓
+            §2等級需求： §f60
+            §2基本傷害： §a540
+            §f----------------------------------------
+    §6末日守護:
+        Type: Shield
+        Enchantments: DURABILITY:10
+        Attributes: MAXHEALTH 800
+        block: 60
+        KnockBack: 0.2
+        UniqueId: true
+        TwoHand: false
+        lootpack: true
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f盾牌
+            §2等級需求： §f60
+            §2屬性： §a血量 +800
+            §f----------------------------------------
+    §6op先鋒:
+        Type: IRON_PICKAXE:103
+        Modifier: STR 0.9
+        Distance: 3.5
+        ChargeTime: 0.7
+        KnockBack: 0.3
+        OnHitSpell: onehand_sword_spell
+        TwoHand: false
+        UniqueId: true
+        lootpack: true
+        Damage: 5100000
+        Enchantments: DURABILITY:10
+        Level: 60
+        Bind: true
+        unbreakable: true
+        Lore: |
+            §2武器類別： §f刀
+            §2等級需求： §f60
+            §2武器傷害： §a5100000
+            §f----------------------------------------
+########################贊助
+    §9簡易挖掘器:
+        Type: DIAMOND_PICKAXE
+        UniqueId: true
+        Damage: 0
+        canMine: true
+        Enchantments: DIG_SPEED:3
+    §5科技攝取鎬:
+        Type: DIAMOND_PICKAXE
+        UniqueId: true
+        Damage: 0
+        canMine: true
+        Enchantments: DURABILITY:5,SILK_TOUCH:1,DIG_SPEED:5
+    §9深海釣竿:
+        Type: FISHING_ROD
+        UniqueId: true
+        Damage: 0
+        Enchantments: DURABILITY:2,LURE:1
+    §9南洋釣竿:
+        Type: FISHING_ROD
+        UniqueId: true
+        Damage: 0
+        Enchantments: DURABILITY:2,LUCK:1
+    §5大地之母賜福釣竿:
+        Type: FISHING_ROD
+        UniqueId: true
+        Damage: 0
+        Enchantments: DURABILITY:3,LURE:3,LUCK:3
+    §9幸運祝福鎬:
+        Type: DIAMOND_PICKAXE
+        UniqueId: true
+        Damage: 0
+        canMine: true
+        Enchantments: DURABILITY:2,LOOT_BONUS_BLOCKS:2
+    §5科技複製鎬:
+        Type: DIAMOND_PICKAXE
+        UniqueId: true
+        Damage: 0
+        canMine: true
+        Enchantments: DURABILITY:3,LOOT_BONUS_BLOCKS:5
+    §5泥土破壞器:
+        Type: DIAMOND_SPADE
+        UniqueId: true
+        Damage: 0
+        canMine: true
+        Enchantments: DURABILITY:5,DIG_SPEED:5

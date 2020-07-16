@@ -1,0 +1,3634 @@
+items:
+  §e隨身型緊急搶救裝置: 
+    Type: CHEST
+    resurrectionclick: true
+    UniqueId: true
+    Reparation: false
+    Lore: |
+      §a如果你的隊友剛死不久，千萬別放棄
+      §a只要還有急救裝置就可以把人搶救回來
+  §e終極人體再生裝置: 
+    Type: ENDER_CHEST
+    Command: resurrection
+    UniqueId: true
+    Reparation: false
+    Bind: true
+    PluginsPermission: mmrpg.resurrection
+    Lore: |
+      §a使用此裝置可以直接指定復活
+      §a在副本中死亡的隊友
+      §c只能在副本中使用。
+  §e5mm彈藥:
+    Type: NAME_TAG 
+  §e．338彈藥:
+    Type: NAME_TAG 
+  §e10mm彈藥:
+    Type: NAME_TAG 
+  §e．45彈藥:
+    Type: NAME_TAG 
+  §e5．56彈藥:
+    Type: NAME_TAG 
+  §e．357彈藥:
+    Type: NAME_TAG 
+  §e散彈:
+    Type: NAME_TAG 
+  §e第二型雷射電池:
+    Type: NAME_TAG 
+  §e第一型雷射電池:
+    Type: NAME_TAG 
+  §e第三型雷射電池:
+    Type: NAME_TAG 
+  §e第四型雷射電池:
+    Type: NAME_TAG 
+  §e雷射散彈電池:
+    Type: NAME_TAG 
+##############鑑定
+  §2『待鑑定』普通武器:
+    Type: IRON_PICKAXE:189
+    unbreakable: true
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級需求：1級
+      §a看起來破敗不堪
+  §2『待鑑定』普通裝備:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：1級
+      §a看起來破敗不堪
+  §9『待鑑定』高級武器:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：2級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §9『待鑑定』高級裝備:
+    Type: IRON_PICKAXE:189
+    unbreakable: true
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a鑑定等級需求：2級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的裝備
+  §9『待鑑定』塵封的武器:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：3級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §9『待鑑定』塵封的裝備:
+    Type: IRON_PICKAXE:189
+    unbreakable: true
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a鑑定等級需求：3級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的裝備
+  §9『待鑑定』堪用的武器:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：4級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §9『待鑑定』堪用的裝備:
+    Type: IRON_PICKAXE:189
+    unbreakable: true
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級需求：4級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的裝備
+  §9『待鑑定』精良的武器:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：5級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §9『待鑑定』精良的裝備:
+    Type: IRON_PICKAXE:189
+    unbreakable: true
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a鑑定等級需求：5級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的裝備
+  §5『待鑑定』史詩武器:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    unbreakable: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級需求：6級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §5『待鑑定』史詩裝備:
+    Type: IRON_PICKAXE:189
+    unbreakable: true
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級需求：6級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的裝備
+  §6『待鑑定』傳奇武器:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：7級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §6『待鑑定』傳奇武器【必定】:
+    Type: IRON_PICKAXE:189
+    lootpack: true
+    UniqueId: true
+    unbreakable: true
+    Lore: |
+      §a鑑定等級需求：7級
+      §a你有預感這可能是個不錯的東西
+      §a此物品有機率被鑑定為更高級的武器
+  §2劣質鑑定器材組:
+    Type: IRON_INGOT
+    Command: identify 1
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：1
+  §2普通鑑定器材組:
+    Type: IRON_INGOT
+    Command: identify 2
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：2
+  §9高級鑑定器材組:
+    Type: IRON_INGOT
+    Command: identify 3
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：3
+  §9進階鑑定器材組:
+    Type: IRON_INGOT
+    Command: identify 4
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：4
+  §9精良鑑定器材組:
+    Type: IRON_INGOT
+    Command: identify 5
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：5
+  §5史詩鑑定器材組:
+    Type: IRON_INGOT
+    UniqueId: true
+    Command: identify 6
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：6
+  §6傳奇鑑定器材組:
+    Type: IRON_INGOT
+    UniqueId: true
+    Command: identify 7
+    lootpack: true
+    UniqueId: true
+    Lore: |
+      §a鑑定等級：7
+  §2普通冷兵器改造零件:
+    Type: GOLD_INGOT
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a可以用來改造傳統武器
+      §a賦予傳統武器新的能力
+  §2普通槍械武器改造零件:
+    Type: GOLD_INGOT
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a可以用來改造槍械
+      §a賦予槍械新的能力
+  §2普通裝備改造零件:
+    Type: GOLD_INGOT
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a可以用來改造裝備
+      §a賦予裝備新的能力
+  §9高級冷兵器改造零件:
+    Type: GOLD_INGOT
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a可以用來改造傳統武器
+      §a賦予傳統武器新的能力
+  §9高級槍械武器改造零件:
+    Type: GOLD_INGOT
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a可以用來改造槍械
+      §a賦予槍械新的能力
+  §9高級裝備改造零件:
+    Type: GOLD_INGOT
+    UniqueId: true
+    lootpack: true
+    Lore: |
+      §a可以用來改造裝備
+      §a賦予裝備新的能力
+#########賣錢垃圾
+###怪物垃圾
+  變異膽汁:
+    Type: POTION
+    Lore: |
+      §a散發著惡臭
+      §a你只想離這鬼東西遠一點
+  角質硬殼:
+    Type: SHULKER_SHELL
+    Lore: |
+      §a需要靠槌子才能敲碎
+  巨大節肢動物的腿:
+    Type: BONE
+    Lore: |
+      §a似乎還在抖動！？
+  碎裂的牙齒:
+    Type: IRON_NUGGET
+    Lore: |
+      §a堅硬的琺瑯質也許
+      §a還有點回收利用用處吧
+  金牙:
+    Type: GOLD_NUGGET
+    UniqueId: true
+    Lore: |
+      §a看起來仍閃閃發亮
+      §a你根本不會在乎這曾經
+      §a是某個人的牙齒的
+###
+  揉爛的碎紙條:
+    Type: PAPER
+    Lore: |
+      §a寫了一些你也看不明白的字
+  生鏽的碎鐵:
+    Type: IRON_NUGGET
+    Lore: |
+      §a這看起來非常脆弱
+      §a也許交易城會有人想要？
+  手機外殼:
+    Type: SHULKER_SHELL
+    Lore: |
+      §a已經扭曲變形了
+  汽車板金:
+    Type: IRON_INGOT
+    Lore: |
+      §a完全就是一塊銹鐵了
+  動物皮革裝飾:
+    Type: RABBIT_HIDE
+    Lore: |
+      §a雖然很多地方爛掉了
+      §a但還是有回收再利用的價值
+  破損的動物雕像:
+    Type: RABBIT_FOOT
+    Lore: |
+      §a也許你也猜不出來是什麼動物了
+  動物標本:
+    Type: RABBIT_HIDE
+    Lore: |
+      §a真的會有人想要這種東西嗎？
+  碎裂寶石:
+    Type: PRISMARINE_CRYSTALS
+    Lore: |
+      §a嚴重破損，可以當石頭了
+  骸骨:
+    Type: BONE
+    Lore: |
+      §a看起來應該是沒能逃過末日制裁
+      §a更慘的是這只是其中一根而已
+  損壞的油畫:
+    Type: PAINTING
+    Lore: |
+      §a雖然充滿髒污與嚴重破損
+      §a但稍微還看得出來是幅畫
+  不知名的液體:
+    Type: POTION
+    Lore: |
+      §a你有點想聞聞看
+      §a但你還是忍住這股衝動了
+  受潮的火藥粉:
+    Type: BLAZE_POWDER
+    Lore: |
+      §a跟灰塵沒兩樣
+  破損的日記:
+    Type: BOOK
+    Lore: |
+      §a上面記載了持有者的生存日記
+  骯髒的動物娃娃:
+    Type: IRON_BARDING
+    Lore: |
+      §a也許可以回收娃娃的布料
+  破損的護甲:
+    Type: IRON_CHESTPLATE
+    UniqueId: true
+    Lore: |
+      §a沒有任何防護功能了
+      §a但這個護甲的金屬可以回收
+  破損的武器:
+    Type: IRON_SWORD
+    UniqueId: true
+    Lore: |
+      §a沒有任何攻擊功能了
+      §a但武器的金屬仍可以回收
+  可回收的武器:
+    Type: IRON_SWORD
+    UniqueId: true
+    Lore: |
+      §a沒有任何攻擊功能了
+      §a但武器的金屬仍可以回收
+  可回收的裝備:
+    Type: IRON_CHESTPLATE
+    UniqueId: true
+    Lore: |
+      §a沒有任何攻擊功能了
+      §a但武器的金屬仍可以回收
+  保存良好的武器:
+    Type: DIAMOND_SWORD
+    UniqueId: true
+    Lore: |
+      §a沒有任何攻擊功能了
+      §a但武器的金屬仍可以回收
+  保存良好的裝備:
+    Type: DIAMOND_CHESTPLATE
+    UniqueId: true
+    Lore: |
+      §a沒有任何攻擊功能了
+      §a但武器的金屬仍可以回收
+#########珍藏品
+  §9榮譽勳章:
+    Type: DIAMOND
+    UniqueId: true
+    Bind: true
+    Reparation: false
+    Lore: |
+      §a這代表著你對你種族陣營的榮譽貢獻
+      §a也可以去與陣營貢獻官兌換特殊物資
+  §9西洋棋『白士兵』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『黑士兵』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『白騎士』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『黑騎士』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『白主教』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『黑主教』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『白國王』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『黑國王』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『白皇后』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『黑皇后』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『白城堡』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  §9西洋棋『黑城堡』:
+    Type: LEVER
+    UniqueId: true
+    Lore: |
+      §a也許在末日也有人想蒐集一整組
+  破損的家電:
+    Type: SHULKER_SHELL
+    UniqueId: true
+    Lore: |
+      §a也許是台烤箱或小冰箱？
+############材料
+  布料:
+    Type: INK_SACK:7
+    Lore: |
+      §a保存狀態還不錯
+  玻璃纖維:
+    Type: GLASS
+    Lore: |
+      §a小心別被刺傷了
+  鹽酸:
+    Type: POTION:8232
+    Lore: |
+      §a小心別溢出來了
+  潤滑油:
+    Type: POTION:8232
+    Lore: |
+      §a你應該知道這不是吃的
+  黏著劑:
+    Type: POTION:8232
+    Lore: |
+      §a非常黏，別被沾到了
+  乙炔罐:
+    Type: POTION:8232
+    Lore: |
+      §a可以產生極高的溫度
+  橡膠:
+    Type: GHAST_TEAR
+    Lore: |
+      §a也許可以用來做點什麼
+  螺絲釘:
+    Type: FLINT
+    Lore: |
+      §a大小不一、隨處都有
+  強化木板:
+    Type: WOOD_STEP
+    Lore: |
+      §a比一般木板更堅固
+  加工皮革:
+    Type: LEATHER
+    Lore: |
+      §a具有更好的韌性
+  硬帆布:
+    Type: LEATHER
+    Lore: |
+      §a比普通的布料更耐用
+#####修理皮革裝
+#####普通皮革修理普通皮革裝
+  廢鐵:
+    Type: IRON_INGOT
+    Lore: |
+      §a在廢墟中四處可見的廢鐵
+  §2鋼鐵:
+    Type: IRON_INGOT
+    Lore: |
+      §a保存狀況良好的普通鋼鐵
+#####修理鋼鐵裝
+  §9精鐵:
+    Type: IRON_INGOT
+    Lore: |
+      §a精煉過的鋼鐵，擁有更好的防護特性
+##用在60~70
+  §5鑽鋼:
+    Type: IRON_INGOT
+    Lore: |
+      §a精煉過的鋼鐵，擁有更好的防護特性
+##用在70~90
+  §5鑽鋼合金:
+    Type: IRON_INGOT
+    Lore: |
+      §a精煉過的鋼鐵，擁有更好的防護特性
+##用在90~100
+####修理高階金屬裝用
+  §e深海螢光礦:
+    Type: SEA_LANTERN
+    Lore: |
+      §a泛著微光
+  §e地心礦:
+    Type: NETHER_WART_BLOCK
+    Lore: |
+      §a深埋在地心深處的礦物
+      §a真難想像是如何取得的
+  §e珍稀石英玉:
+    Type: QUARTZ
+    UniqueId: true
+    Lore: |
+      §a在地心深處的特殊石英
+  電路元件:
+    Type: REDSTONE_COMPARATOR 
+    Lore: |
+      §a狀況仍保持得不錯
+  電線:
+    Type: STRING 
+    Lore: |
+      §a市場上常需要的物資之一
+  §e汽油:
+    Type: POTION:8232
+  §e鋁:
+    Type: IRON_INGOT
+    Lore: |
+      §a純度含量至少達99%以上
+      §a的24K純金
+  §e鉛:
+    Type: IRON_INGOT
+    Lore: |
+      §a擁有良好的抗輻射特性
+##抗輻射材質專用
+  §e銀:
+    Type: IRON_INGOT
+    Lore: |
+      §a少見珍稀的礦物
+  §e純金:
+    Type: GOLD_INGOT
+    Lore: |
+      §a純度含量至少達99%以上
+      §a的24K純金
+###部分高階改裝材料
+  §e鑽鋼:
+    Type: DIAMOND
+    Lore: |
+      §a使用特殊工法來提煉鑽石成為
+      §a最堅固的金屬素材
+  §e海藍寶石:
+    Type: DIAMOND
+    UniqueId: true
+    Lore: |
+      §a獨特海水藍顏色的水晶寶石
+  §e電氣石:
+    Type: GOLD_NUGGET
+    Lore: |
+      §a摸上去還帶有微微電力
+  §a祖母綠:
+    Type: EMERALD
+    Lore: |
+      §f因其絕美的翠綠被稱為綠寶石之王
+  §a橄欖石:
+    Type: EMERALD
+    Lore: |
+      §f擁有黃綠色的寶石
+      §f通常存在於火成岩之中
+  §a黃鐵礦:
+    Type: GOLD_ORE
+    Lore: |
+      §f色澤為淡淡的金黃色
+      §f常有人以為這是黃金
+      §f固有愚人金之別稱
+############################後綴稱號
+  §e限定前綴稱號卷軸『§a酋長殺手§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『酋長殺手』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e限定前綴稱號卷軸『§c機械公敵§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『機械公敵』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e限定前綴稱號卷軸『§9守望末日§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『守望末日』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§6球奴§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§6球奴
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§6球球§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§6球球
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§9人類§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§9人類
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2變種人§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§9變種人
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c機械族§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§c機械族
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§9守望軍§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§9守望軍
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c搜索者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『搜索者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c影獵手§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『影獵手』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9守望者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『守望者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9自由特務§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『自由特務』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2部落貴族§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『部落貴族』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2荒沙部落§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§9荒沙部落
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2變種部落§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§9荒沙部落
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c反抗軍§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§c反抗軍
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c夏娃§e』: 
+    Bind: true
+    Consume: false
+    UniqueId: true
+    Type: PAPER
+    Command: mmsuffix §e-§c夏娃
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+####################前綴稱號
+###############前綴
+###############工作人員
+  §e前綴稱號卷軸『§c執政官§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『執政官』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e建築師§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『建築師』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b繪師§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『繪師』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############認真
+  §e前綴稱號卷軸『§8特種部隊§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §8『特種部隊』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9居無定所§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『居無定所』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d血牛§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『血牛』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b玻璃製品§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『玻璃製品』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e百發百中§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『百發百中』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############有趣
+  §e前綴稱號卷軸『§6太神啦！§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『太神啦！』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e再課一單！§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『再課一單！』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6專業拓荒§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『專業拓荒』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§eBANG！§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『BANG！』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e10元買得到的§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『10元買得到的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e你灑幣嗎？§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『你灑幣嗎？』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§8非洲人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §8『非洲人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§0非洲酋長§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §0『非洲酋長』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§f歐洲人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §f『歐洲人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e法老§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『法老』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6薪水小偷§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『薪水小偷』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a混分專家§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『混分專家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9一槍沒半個§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『一槍沒半個』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c糟鬍子§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『糟鬍子』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9專業賣隊友§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『專業賣隊友』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9陷阱觸發達人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『陷阱觸發達人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9廢土三寶§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『廢土三寶』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############武器裝備
+  §e前綴稱號卷軸『§6刀鋒戰士§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『刀鋒戰士』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b武者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『武者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b居合斬§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『居合斬』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c重棒出擊§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『重棒出擊』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e三拳超人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『三拳超人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9旋風神槍手§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『旋風神槍手』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e狙擊王§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『狙擊王』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c隔空燒烤專家§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『隔空燒烤專家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2機槍愛好者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『機槍愛好者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2百步穿楊§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『百步穿楊』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9刀槍不入§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『刀槍不入』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d能量反射體§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『能量反射體』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6全壘打§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『全壘打』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############生活
+  §e前綴稱號卷軸『§6釣魚專家§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『釣魚專家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e建築專家§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『建築專家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b礦工工頭§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『礦工工頭』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9拾荒專員§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『拾荒專員』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2農夫§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『農夫』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c燒肉達人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『燒肉達人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e邪惡商人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『邪惡商人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############天賦
+  §e前綴稱號卷軸『§e人刀一體§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『人刀一體』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c燒毀！§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『燒毀！』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§f透明人間§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §f『透明人間』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b比鑽石還硬§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『比鑽石還硬』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2一臉嘲諷§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『一臉嘲諷』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d醫護兵§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『醫護兵』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d物理治療師§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『物理治療師』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d非法藥廠§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『非法藥廠』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9機甲操作員§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『機甲操作員』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c爆破專家§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『爆破專家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############受傷
+  §e前綴稱號卷軸『§c三度燒燙傷§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『三度燒燙傷』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2輻射愛好者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『輻射愛好者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§f信仰之躍§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §f『信仰之躍』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c千瘡百孔§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『千瘡百孔』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2膝蓋中箭§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『膝蓋中箭』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9用臉接技能§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『用臉接技能』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############怪物
+  §e前綴稱號卷軸『§2蟑螂恐懼症§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『蟑螂恐懼症』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2蜘蛛恐懼症§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『蜘蛛恐懼症』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2蛇吻§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『蛇吻』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2屍鬼狂熱症§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『屍鬼狂熱症』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e全都假的！§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『全都假的！』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c被撕裂的§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『被撕裂的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############主線及劇情
+  §e前綴稱號卷軸『§d復仇者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『復仇者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d英雄§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『英雄』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§d生還者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §d『生還者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############其他
+  §e前綴稱號卷軸『§5西洋棋冠軍§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §5『西洋棋冠軍』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§5撞球國手§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §5『撞球國手』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§4BOSS§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §4『BOSS』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+###############後綴
+###############陣營效忠
+  §e後綴效忠卷軸『§6交易者聯盟§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§6交易者聯盟
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c守望軍§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c守望軍
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§9反抗軍§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9反抗軍
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2根木§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2根木
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c骨老大§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c骨老大
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c滾蛇§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c滾蛇
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2碎顱§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2碎顱
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§d藍海§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§d藍海
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§d影子貓§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§d影子貓
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2血眼§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2血眼
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c廢土人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c廢土人
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§7屍鬼§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§7屍鬼
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§6貓汁§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§6貓汁
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+###############稱謂
+  §e後綴稱謂卷軸『§d師傅§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§d師傅
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§b教練§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§b教練
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§e博士§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e博士
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§b海軍上將§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§b海軍上將
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§9上校§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9上校
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§1班長§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§1班長
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§6肝帝§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§6肝帝
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§6炸雞勇者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§6炸雞勇者
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§9指揮官§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9指揮官
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§c劊子手§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c劊子手
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§e馬戲團§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e馬戲團
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§a老天鵝§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§a老天鵝
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§e大明神§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e大明神
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§d軟骨動物§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§d軟骨動物
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§0死神§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§0死神
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱謂卷軸『§2菜鳥§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2菜鳥
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+###############表情，需測試是否正常
+  §e後綴表情卷軸『§e(´・ω・｀)§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e(´・ω・｀)
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情卷軸『§eΣ(*ﾟдﾟﾉ)ﾉ§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§eΣ(*ﾟдﾟﾉ)ﾉ
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情卷軸『§6(゜∀。)§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§6(゜∀。)
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情卷軸『§9(;´༎ຶД༎ຶ`)§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9(;´༎ຶД༎ຶ`)
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情卷軸『§e(́◕◞౪◟◕‵)§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e(́◕◞౪◟◕‵)
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情卷軸『§eヽ(・∀・)ﾉ§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§eヽ(・∀・)ﾉ
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情卷軸『§c(ノˋロˊ)ノ§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c(ノˋロˊ)ノ
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+############
+  §e前綴稱號卷軸『§9傷心欲絕的§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『傷心欲絕的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6奮發向上的§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『奮發向上的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2有勇無謀的§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『有勇無謀的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§4戰死的§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §4『戰死的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+##################
+  §e前綴稱號卷軸『§9廢土騎士§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『廢土騎士』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e自由特務§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『自由特務』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6大酋長§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『大酋長』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§5戰爭使者§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §5『戰爭使者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2荒土菜鳥§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『荒土菜鳥』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9暗影潛伏§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『暗影潛伏』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b拾荒者§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『拾荒者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a部落勇士§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『部落勇士』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§4斬首者§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §4『斬首者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6海拉頓傳奇§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『海拉頓傳奇』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c廢墟霸主§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『廢墟霸主』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2掠奪者§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『掠奪者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2廢土征服者§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §f『§2廢土征服者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a守望軍隊長§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §f『§a守望軍隊長』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+########裝飾頭顱
+  §e漢堡:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVlMjc5ODhhNjUzODAxMGVmYzBlMjQ3NTZiYzNlM2VlYTI0ZDc1MzZiMjA5MzJjMTdlMDQwNGU1Y2M1NWYifX19
+    Lore: |
+        §9點綴你的餐桌
+  §e小蛋糕:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkxMzY1MTRmMzQyZTdjNTIwOGExNDIyNTA2YTg2NjE1OGVmODRkMmIyNDkyMjAxMzllOGJmNjAzMmUxOTMifX19
+    Lore: |
+        §9點綴你的餐桌
+  §e啤酒:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1M2UyNjg2N2JiNTc1MzhlOTc4OTEzN2RiYmI1Mzc3NGUxOGVkYTZmZWY1MWNiMmVkZjQyNmIzNzI2NCJ9fX0=
+    Lore: |
+        §9如果你想經營一家酒吧的話
+  §e海灘球:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1YWIwNWVhMjU0YzMyZTNjNDhmM2ZkY2Y5ZmQ5ZDc3ZDNjYmEwNGU2YjVlYzJlNjhiM2NiZGNmYWMzZmQifX19
+    Lore: |
+        §9海邊休閒必備
+  §e紫色禮物盒:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU2MTJkYzdiODZkNzFhZmMxMTk3MzAxYzE1ZmQ5NzllOWYzOWU3YjFmNDFkOGYxZWJkZjgxMTU1NzZlMmUifX19
+    Lore: |
+        §9當然裡面空空如也...
+  §e綠色禮物盒:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNjZmJmMmJkZmQ0ODUxNGJmYmFjZTk1MThjNzY2NDExMmRmMmMxNzNlOGM3YWQ5MmIzZTY1NjIxYTllZDZlMCJ9fX0=
+    Lore: |
+        §9當然裡面空空如也...
+  §e紅色禮物盒:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBhZmE0ZmZmZDEwODYzZTc2YzY5OGRhMmM5YzllNzk5YmNmOWFiOWFhMzdkODMxMjg4MTczNDIyNWQzY2EifX19
+    Lore: |
+        §9當然裡面空空如也...
+  §e粉紅小花叢:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1MjU3Yjc5OWQzOTQ2OTI3ZjJiMzI1ZDM2NmViNTEwNGE1YzM1MjE5ZWU0ZTRkMzU3MjFiZjI4YTIxMCJ9fX0=
+    Lore: |
+        §9很典雅的裝飾物
+  §e白色小花叢:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNGMxMmJmMjYxOWNiZmM4ZjIyZGM2MmMwMjJjZTE1MTI2Y2VhM2UyMTJjMjhkOWY5NmVhMzEwYWM0YzQyIn19fQ==
+    Lore: |
+        §9很典雅的裝飾物
+  §e黃色小花叢:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNmZmZjODk1NWIwZTgzMDI4OThmN2YwMTVkODQ5ZjBhMDFkYmJiMDQyNzQxNzUwNmZiODllYWQ1NGQ0NWY2In19fQ==
+    Lore: |
+        §9很典雅的裝飾物
+  §e迷你水族箱:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI4NDdjZDU3MTdlNWY1YTY0ZTFiYTljYjQ4MWRjOWUyMmM3OGNhMjNmODUxNmQ1NTNmNTU0MTJmYTExM2UwIn19fQ==
+    Lore: |
+        §9喜歡養魚嗎？
+  §e醫藥箱:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjN2RmNTJiNWU1MGJhZGI2MWZlZDcyMTJkOTc5ZTYzZmU5NGYxYmRlMDJiMjk2OGM2YjE1NmE3NzAxMjZjIn19fQ==
+    Lore: |
+        §9讓你的家看起來更安全？
+  §e一堆書:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFjNjNkOWI5ZmQ4NzQyZWFlYjA0YzY5MjE3MmNiOWRhNDM3ODE2OThhNTc1Y2RhYmUxYzA0ZGYxMmMzZiJ9fX0=
+    Lore: |
+        §9裝飾你的桌子
+  §eWinRAR:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQxYjI4Zjg4NmNhM2M4ZmM0MzAxYjc4NWJmMzhjNjE5ZWE2NmI2ODM1MmE4ODJiZjgwODBlNjMwMzRlMCJ9fX0=
+    Lore: |
+        §9what?
+  §e紅玫瑰小花叢:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRiYTM4ZTlmYzY3ZjcyYzQ1OGZkYWM4ZWNkN2NhYmFlZDNlYjgzNzM3MTQzYTAxMjgzNTBhMWFiMzgxZTNlIn19fQ==
+    Lore: |
+        §9很典雅的裝飾物
+  §e藍莓小花叢:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ4MGMyNmY5MDRiNTdlNjMxZTM5ZWJjNDQ2ZWMxYWYyZGNlMzQzMmViODQzMWZiZDE5MDg3YWRiNGFiY2IifX19
+    Lore: |
+        §9很典雅的裝飾物
+  §e地球儀:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0=
+    Lore: |
+        §9有一點不太像這個星球
+        §9也許是來自其他世界？
+#############新植物
+  §e椰子:
+    Type: SKULL_ITEM:3
+    canBuild: true
+    TextureValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJjNjJmZDhlNDc0ZDA5OTQwNjA0ZjgyNzEyYTQ0YWJiMjQ5ZDYzYWZmODdmOTk4Mzc0Y2E4NDlhYjE3NDEyIn19fQ==
+    Lore: |
+        §9你還沒辦法直接吃這個東西
+##########貝殼產物
+  §e貝殼:
+    Type: SKULL_ITEM:3
+    Owner: Santa
+    Lore: |
+        §9看起來挺漂亮的
+  §5南洋黑珍珠:
+    Type: ENDER_PEARL 
+    Lore: |
+      §a稀有黑蝶貝所生產
+      §a具有黑色鏡面的外表
+      §a為南洋珍珠中最難產出
+      §a也最珍貴的珍珠
+#########################新礦物
+##############################物品
+#########################隨機事件物品
+  §e前綴稱號卷軸『§6釣魚宗師§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『釣魚宗師』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§4釣到海怪的§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §4『釣到海怪的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §9邪惡普屋的召喚信物: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9邪惡普屋
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f人形寵物為隨從，也是種觀賞型寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：6X9
+      §f------------------------------------------
+      §a這似乎是從其他次元被召喚到上古紀元的生物
+      §f------------------------------------------
+  §9結婚鑽戒:
+    Type: DIAMOND
+    UniqueId: true
+    Consume: false
+    Command: propose 20 5000
+    Lore: |
+      §f結婚後組隊經驗加成20%
+      §f結婚基金為5000元荒土幣
+      §9------------------------------------------
+      §f一般的結婚戒指
+      §9------------------------------------------
+      §f兩人組隊經驗加倍
+      §f感情狀態欄位會有你伴侶的名稱
+  §9「誓約」結婚鑽戒:
+    Type: DIAMOND
+    UniqueId: true
+    Consume: false
+    Command: propose 30 8000 broadcast
+    Lore: |
+      §f結婚後組隊經驗加成30%
+      §f結婚基金為8000元荒土幣
+      §f使用此結婚戒指會有全頻廣播
+      §9------------------------------------------
+      §f永恆誓約的定情之物
+      §9------------------------------------------
+  §5「永恆星鑽」結婚鑽戒:
+    Type: DIAMOND
+    Bind: true
+    Reparation: false
+    Consume: false
+    UniqueId: true
+    Command: propose 50 10000 broadcast
+    Lore: |
+      §f結婚後組隊經驗加成50%
+      §f結婚基金為10000元荒土幣
+      §f使用此結婚戒指會有全頻廣播
+      §9------------------------------------------
+      §f荒土世界中最高級的定情物
+      §f獻給最好的另一半
+      §9------------------------------------------
+  §e前綴稱號卷軸『§5繪師§e』: 
+    Bind: true
+    UniqueId: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §5『繪師』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+################野外boss掉落物
+############端午節
+  §9好奇的深海守衛的召喚信物: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet §9好奇的深海守衛
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：5X9
+  §5龍王之眼的召喚信物: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet §5龍王之眼
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：6X9
+#######1.8新物品
+  §e「綁定」種族太空艙傳送器: 
+    Type: DIAMOND
+    Reparation: false
+    Command: mmpos rpgmain world_Space -659 172 -392
+    PluginsPermission: mmrpg.mmpos
+    RestrictWorld: world_lobby
+    Bind: true
+    Lore: |
+      §a消耗此物品傳送你到一開始選種族的地方
+      §a可以在那選擇其他種族並體驗新手劇情
+      §c僅只可以在交易城使用
+      §c有庇護所的時候無法使用
+  §e「綁定」天賦重製書: 
+    Type: ENCHANTED_BOOK
+    Command: talentreset
+    UniqueId: true
+    Reparation: false
+    Bind: true
+    PluginsPermission: mmrpg.talentreset
+    Lore: |
+      §a使用並消耗此書使你信仰天賦重製。
+      §a只會影響你當前使用的種族。
+  §e「綁定」屬性重製書: 
+    Type: ENCHANTED_BOOK
+    Reparation: false
+    Command: attrreset
+    Bind: true
+    PluginsPermission: mmrpg.attrreset
+    Lore: |
+      §a使用並消耗此書使你升級配點
+      §a的屬性重製。
+      §a只會影響你當前使用的種族。
+  §9人造巨人的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 人造巨人
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9騎乘河豚的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 騎乘河豚
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §5深海霸主的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 深海霸主
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+########################################中秋節
+  §e前綴稱號卷軸『§e我會代替月亮懲罰你§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『我會代替月亮懲罰你』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6中秋勇者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『中秋勇者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§c奈拉征服者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §c『奈拉征服者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§5花好月圓§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §5『花好月圓』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9射月者§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『射月者』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§e月光仙子§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e月光仙子
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§d嫦娥§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§d嫦娥
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §9「一次性」凋零使者的召喚信物: 
+    Type: SADDLE
+    Bind: true
+    Reparation: false
+    Command: mount 凋零使者
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9「一次性」奈拉科技車的鑰匙鑰匙: 
+    Type: SADDLE
+    Bind: true
+    Reparation: false
+    Command: mount 奈拉科技車
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a強悍的奈拉科技顛峰之作。
+      §f----------------------------------------
+  §9「一次性」亡域戰馬的死亡韁繩: 
+    Type: SADDLE
+    Bind: true
+    Reparation: false
+    Command: mount 亡域戰馬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a傳說中的瘟疫不死馬。
+      §f----------------------------------------
+  §9奔跑的蜥蜴人的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 奔跑的蜥蜴人
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9移動南瓜的召喚物: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9移動南瓜
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：4X9
+  §9殭屍王的召喚物: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9殭屍王隨從
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：5X9
+  §9愚人節史帝夫的召喚物: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9愚人節史帝夫
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：3X9
+  §e後綴效忠卷軸『§2提摩§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2提摩
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+###################################################情人節
+  §d後綴效忠卷軸『§d乾妹妹§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§d乾妹妹
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§2大表哥§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §2『大表哥』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a綠光俠§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『綠光俠』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§4公～我去當兵了§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §4『公～我去當兵了』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6守寡的§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『守寡的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §a綠水晶:
+    Type: EMERALD
+    UniqueId: true
+    Lore: |
+      §f晶瑩剔透
+      §f肯定很多人很愛不釋手
+  §e後綴效忠卷軸『§4去死去死團§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§4去死去死團
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§e月老§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§e月老
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§4去死去死團終身會員§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §4『去死去死團終身會員』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§b好紳士§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §b『好紳士』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9寂寞、空虛、覺得冷§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §9『寂寞、空虛、覺得冷』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6人生勝利組§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『人生勝利組』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a注定孤獨一生§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『注定孤獨一生』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§9蘿莉控§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9蘿莉控
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§2滾蛇§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2滾蛇
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§6明日兄弟會§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§6明日兄弟會
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c卡厄斯§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c卡厄斯
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a荒土活動主持§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『荒土活動主持』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§a荒土官方直播§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a『荒土官方直播』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§c阿妮§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c阿妮
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴表情稱號卷軸『§a(●ω●)§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §a(●ω●)
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴表情稱號卷軸『§e-§a(●’ω`●）§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§a(●’ω`●）
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴稱號卷軸『§e-§9亞道§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9亞道
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f某位異次元空間的傳奇人物
+  §e後綴稱號卷軸『§e-§2秋本大師§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§2秋本大師
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f某位勇猛的傳說武士
+  §e後綴稱號卷軸『§e-§aWOO§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§aWOO
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f使用此稱號來讚揚曾經的獵戶世界
+  §e後綴稱號卷軸『§e-§5MAS§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§5MAS
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f使用此稱號來讚揚曾經的突變末日
+  §e後綴稱號卷軸『§e-§9EOE§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9EOE
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f使用此稱號來讚揚曾經的上古紀元
+  §2極輕小旅包: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: extrapack 1
+    PluginsPermission: mmrpg.extrapack
+    Lore: |
+      §f包包空間1x9
+      §f點右鍵打開你的額外包包
+      §f內容物品與其他包包是共用的
+      §f空間越多的包包可以開啟
+      §f跟拿取空間較少的包包物品
+  §2旅行背包: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: extrapack 2
+    PluginsPermission: mmrpg.extrapack
+    Lore: |
+      §f包包空間2x9
+      §f點右鍵打開你的額外包包
+      §f內容物品與其他包包是共用的
+      §f空間越多的包包可以開啟
+      §f跟拿取空間較少的包包物品
+  §9帆布大背包: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: extrapack 3
+    PluginsPermission: mmrpg.extrapack
+    Lore: |
+      §f包包空間3x9
+      §f點右鍵打開你的額外包包
+      §f內容物品與其他包包是共用的
+      §f空間越多的包包可以開啟
+      §f跟拿取空間較少的包包物品
+  §9拾荒大包包: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: extrapack 4
+    PluginsPermission: mmrpg.extrapack
+    Lore: |
+      §f包包空間4x9
+      §f點右鍵打開你的額外包包
+      §f內容物品與其他包包是共用的
+      §f空間越多的包包可以開啟
+      §f跟拿取空間較少的包包物品
+  §5變異革制大背包: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: extrapack 5
+    PluginsPermission: mmrpg.extrapack
+    Lore: |
+      §f包包空間5x9
+      §f點右鍵打開你的額外包包
+      §f內容物品與其他包包是共用的
+      §f空間越多的包包可以開啟
+      §f跟拿取空間較少的包包物品
+  §6次元科技背包: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: extrapack 6
+    PluginsPermission: mmrpg.extrapack
+    Lore: |
+      §f包包空間6x9
+      §f點右鍵打開你的額外包包
+      §f內容物品與其他包包是共用的
+      §f空間越多的包包可以開啟
+      §f跟拿取空間較少的包包物品
+#############################寵物
+  §9變異蠕蟲的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9被吸引的變異蠕蟲
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9白兔寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9白兔寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9黑牧兔的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9黑牧兔
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9黑牧兔寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9黑牧兔寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9黃金兔的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9黃金兔
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的寵物
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：3X9
+  §9黃金兔寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9黃金兔寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9好運兔的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9好運兔
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9好運兔寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9好運兔寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9殺人兔的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9不想殺人的殺人兔
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9殺人兔寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9殺人兔寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9廢土孤兒的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9廢土孤兒
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9小哞菇的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9小哞菇
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：5X9
+  §9迷你豬寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9迷你豬寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9廢土狼寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9廢土狼寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9迷你雞的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9迷你雞
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：1X9
+  §9小雞的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9廢土雞
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9小孟買貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9小孟買貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9小豹貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9小豹貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9小暹羅貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9小暹羅貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9小短毛貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9小短毛貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9孟買貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9孟買貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9叢木豹貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9叢木豹貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9暹羅貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9暹羅貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9短毛貓的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9短毛貓
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9殭屍豬人寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9殭屍豬人寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+  §9蝙蝠寶寶的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9蝙蝠寶寶
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9蟑螂的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9被馴服的變異蟑螂
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9小死亡爪的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9乖巧的小死亡爪
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：6X9
+  §9死亡爪的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9被馴服的的死亡爪
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：6X9
+  §9寄居蟹的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9被馴服的的寄居蟹
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：6X9
+  §9狐狸的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9狐狸
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：3X9
+  §9聽話的小屍鬼的召喚之笛: 
+    Type: STICK
+    Bind: true
+    Consume: false
+    Command: pet &9聽話的小屍鬼
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+      §f----------------------------------------
+      §a這隻小屍鬼似乎腦子也還沒完全燒壞
+      §a但也差不多了
+      §f----------------------------------------
+  §9廢土人伙伴的召喚信物: 
+    Type: DIAMOND
+    Bind: true
+    Consume: false
+    Command: pet &9廢土人伙伴
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：2X9
+      §f----------------------------------------
+      §a他是你的伙伴，或是奴隸，總之他是你的了
+      §f----------------------------------------
+  §9女僕米可娜的召喚信物: 
+    Type: DIAMOND
+    Bind: true
+    Consume: false
+    Command: pet &9女僕米可娜
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：5X9
+      §f----------------------------------------
+      §a這是個荒土末世中被販賣的女性傭人
+      §a她有著可憐的身世並等待著一個好主人
+      §f----------------------------------------
+  §9殭屍管家的召喚信物: 
+    Type: GOLD_INGOT
+    Bind: true
+    Consume: false
+    Command: pet &9殭屍管家
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：4X9
+      §f----------------------------------------
+      §a這個屍鬼具有意識
+      §a看來腦子並沒有完全被輻射燒壞
+      §f----------------------------------------
+  §9阿璃的召喚信物: 
+    Type: INK_SACK:9
+    Bind: true
+    Consume: false
+    Command: pet &9阿璃
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚
+      §f寵物背包：6X9
+      §f----------------------------------------
+      §a這似乎是從其他次元被召喚到荒土世界的仙狐。
+      §f----------------------------------------
+  §e多功能羅盤:
+      Type: COMPASS
+      Consume: false
+      Command: cc open menu
+      Bind: true
+      Lore: |
+        §f能夠在廢墟指向安全區
+        §f迷路時跟著羅盤方向走回家吧
+        §f拿在手上點右鍵可打開遊戲選單
+        §f可以查看各項角色資訊或說明等
+        §f可直接使用Shift + F 開啟羅盤
+  §9「只能使用一次」騎乘山羊的鞍: 
+    Type: SADDLE
+    Command: mount 騎乘山羊
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9「只能使用一次」老驢子的鞍: 
+    Type: SADDLE
+    Command: mount 老邁的驢子
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9「只能使用一次」斑點棕馬的鞍: 
+    Type: SADDLE
+    Command: mount 斑點棕馬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §5凋零使者的召喚信物: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 凋零使者
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9騎乘山羊的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 騎乘山羊
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9勉強飛得動的騎乘蝙蝠的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 勉強飛得動的騎乘蝙蝠
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9被馴服的史萊姆的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 被馴服的史萊姆
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9效命的虛空使者的召喚物: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 效命的虛空使者
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9機械鐵巨人的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 機械鐵巨人
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9被魔法控制的烈焰神的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 被魔法控制的烈焰神
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9騎乘蜘蛛的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 騎乘蜘蛛
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9奈拉科技車的鑰匙: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 奈拉科技車
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a強悍的奈拉科技顛峰之作。
+      §f----------------------------------------
+  §5迅馳的鑰匙: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 迅馳
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a強悍的奈拉科技顛峰之作。
+      §f----------------------------------------
+  §5絕影的黑暗韁繩: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 絕影
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a古代的神祕寶馬。
+      §f----------------------------------------
+  §5聖殿戰馬的神聖韁繩: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 聖殿戰馬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a聖殿騎士團所使用的鑽甲白馬。
+      §f----------------------------------------
+  §5亡域戰馬的死亡韁繩: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 亡域戰馬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a傳說中的瘟疫不死馬。
+      §f----------------------------------------
+  §9被馴服的奈拉苦力帕的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 被馴服的奈拉苦力帕
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9庫拉好兄弟的信物: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 庫拉好兄弟
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9鬥牛的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 鬥牛
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9騎乘山豬的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount §9騎乘山豬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9騎乘月兔的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount §9騎乘月兔
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9斑點棕馬的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 斑點棕馬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9馴狼的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 馴狼
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9老驢子的鞍: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 老邁的驢子
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9烏賊坐騎: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 騎乘爬行烏賊
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §9一次性的烏賊坐騎: 
+    Type: SADDLE
+    Bind: true
+    Command: mount 騎乘爬行烏賊
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+  §5骷髏戰馬的死亡韁繩: 
+    Type: SADDLE
+    Bind: true
+    Consume: false
+    Command: mount 骷髏戰馬
+    Lore: |
+      §f點右鍵以召喚你的坐騎
+      §f不能在副本世界使用
+      §f----------------------------------------
+      §a傳說中的骷髏戰馬。
+      §f----------------------------------------
+#########################聖誕周
+  §9聖誕老人的召喚信物: 
+    Type: CHEST
+    Bind: true
+    Consume: false
+    Command: pet §9聖誕老人
+    PluginsPermission: mmrpg.pet
+    Lore: |
+      §f點右鍵以召喚你的夥伴
+      §f觀賞型寵物，使用後在羅盤綁定區內點選召喚不會幫忙戰鬥
+      §f寵物背包：6X9
+      §f------------------------------------------
+      §a聖誕老人的背包非常大
+      §f------------------------------------------
+  §e前綴稱號卷軸『§6菁英§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『菁英』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f----------------------------------------
+      §a讓你模仿副本菁英怪的頭銜！
+      §f----------------------------------------
+  §e前綴稱號卷軸『§6除蟲專家§e』: 
+    Type: PAPER
+    Bind: true
+    Consume: false
+    Command: mmprefix §6『除蟲專家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f----------------------------------------
+      §a你替伺服器找到重大BUG，予以此獎勵
+      §f----------------------------------------
+  §e前綴稱號卷軸『§7窮困潦倒的§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §7『窮困潦倒的』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§e有錢人§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §e『有錢人』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§6富豪§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §6『富豪』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§5貴族§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmprefix §5『貴族』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e前綴稱號卷軸『§9探險家§e』: 
+    Type: PAPER
+    Bind: true
+    Consume: false
+    Command: mmprefix §9『探險家』
+    PluginsPermission: mmrpg.prefix
+    Lore: |
+      §f使用此卷軸增加自己前綴的稱號
+      §f若已有其他稱號，將會取代之
+  §e後綴效忠卷軸『§9MM§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9MM
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f----------------------------------------
+      §a若冠上此稱號代表你為MCWE的創造者MM而戰
+      §f----------------------------------------
+  §e後綴效忠卷軸『§9里昂§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§9里昂
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f----------------------------------------
+      §a若冠上此稱號代表你為MCWE的設計者里昂而戰
+      §f----------------------------------------
+  §e後綴效忠卷軸『§c彩§6虹§a小§9馬§e』: 
+    Bind: true
+    Consume: false
+    Type: PAPER
+    Command: mmsuffix §e-§c彩§6虹§a小§9馬
+    PluginsPermission: mmrpg.suffix
+    Lore: |
+      §f使用此卷軸增加自己後綴的稱號
+      §f若已有其他稱號，將會取代之
+      §f----------------------------------------
+      §a若冠上此稱號代表你為彩虹小馬而戰
+      §f----------------------------------------
+  §92倍幸運強化晶片(1H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Command: dropdouble 3600000
+    Lore: |
+      §a使用此道具可使接下來1小時的掉落率上升2倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §92倍幸運強化晶片(3H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Command: dropdouble 10800000
+    Lore: |
+      §a使用此道具可使接下來3小時的掉落率上升2倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §93倍幸運強化晶片(1H):
+    Type: PAPER
+    UniqueId: true
+    Bind: true
+    Command: dropdouble 3600000
+    Lore: |
+      §a使用此道具可使接下來1小時的掉落率上升2倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §93倍幸運強化晶片(3H):
+    Type: PAPER
+    UniqueId: true
+    Bind: true
+    Command: dropdouble 10800000
+    Lore: |
+      §a使用此道具可使接下來3小時的掉落率上升2倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §92倍經驗強化晶片(1H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Command: expdouble 3600000
+    Lore: |
+      §a使用此道具可使接下來1小時的獲得的經驗上升2倍
+      §a不可以跟其他加倍經驗重複使用,效果會被蓋掉
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §92倍經驗強化晶片(3H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Command: expdouble 10800000
+    Lore: |
+      §a使用此道具可使接下來3小時的獲得的經驗上升2倍
+      §a不可以跟其他加倍經驗重複使用,效果會被蓋掉
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §53倍經驗強化晶片(1H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Command: expdouble 3600000 3
+    Lore: |
+      §a使用此道具可使接下來1小時的獲得的經驗上升3倍
+      §a不可以跟其他加倍經驗重複使用,效果會被蓋掉
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §53倍經驗強化晶片(3H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Command: expdouble 10800000 3
+    Lore: |
+      §a使用此道具可使接下來3小時的獲得的經驗上升3倍
+      §a不可以跟其他加倍經驗重複使用,效果會被蓋掉
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §53倍幸運強化晶片(1H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Reparation: false
+    Command: dropdouble 3600000 3
+    Lore: |
+      §a使用此道具可使接下來1小時的掉落率上升3倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §53倍幸運強化晶片(3H):
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Reparation: false
+    Command: dropdouble 10800000 3
+    Lore: |
+      §a使用此道具可使接下來3小時的掉落率上升3倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §5終極幸運強化晶片:
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Reparation: false
+    Command: dropdouble 3600000 5
+    Lore: |
+      §a使用此道具可使接下來1小時的掉落率上升5倍
+      §a不可以跟其他掉寶加倍重複使用,效果會被蓋掉
+      §a但是可以跟經驗加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+      §a若有組隊則全隊共享
+  §5終極經驗強化晶片:
+    Type: PAPER
+    Bind: true
+    UniqueId: true
+    Reparation: false
+    Command: expdouble 3600000 5
+    Lore: |
+      §a使用此道具可使接下來1小時的經驗上升5倍
+      §a不可以跟其他經驗加倍重複使用,效果會被蓋掉
+      §a但是可以跟掉落加倍同時使用
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §9免死金牌(1H):
+    Type: PAPER
+    Bind: true
+    Command: keepexp 3600000
+    Lore: |
+      §a只要點下右鍵，一小時內你死亡時滿等獎勵都會保留
+      §a在副本內死亡可重新回到出發點
+      §a如果使用之後中途離線,再上線還是會有效果
+      §a但是中間離線時間仍然持續計算
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §5免死金牌(3H):
+    Type: PAPER
+    Bind: true
+    Reparation: false
+    Command: keepexp 10800000
+    Lore: |
+      §a只要點下右鍵，一小時內你死亡時滿等獎勵都會保留
+      §a在副本內死亡可重新回到出發點
+      §a如果使用之後中途離線,再上線還是會有效果
+      §a但是中間離線時間仍然持續計算
+      §a如果因伺服當機/重啟而損失時間,恕不另行賠償
+  §e煙火卷軸: 
+    Type: PAPER
+    Command: FireworkShow 2 600 2
+    PluginsPermission: FireworkShow.use
+    Lore: |
+      §a施放一小段煙火，將會消耗此物品
+  §e急促煙火卷軸: 
+    Type: PAPER
+    Command: FireworkShow 1 200 1
+    PluginsPermission: FireworkShow.use
+    Lore: |
+      §a施放一小段煙火，將會消耗此物品
+  §e持久煙火卷軸: 
+    Type: PAPER
+    Command: FireworkShow 30 800 1
+    PluginsPermission: FireworkShow.use
+    Lore: |
+      §a施放一小段煙火，將會消耗此物品
+  §e貴賓級煙火卷軸: 
+    Type: PAPER
+    Command: FireworkShow 60 1200 20
+    PluginsPermission: FireworkShow.use
+    Lore: |
+      §a施放一小段煙火，將會消耗此物品
+      §a比持久煙火卷軸更加持久
+  §9西月港傳送卷軸: 
+    Type: PAPER
+    Command: tppos -145 65 -1
+    PluginsPermission: essentials.tppos
+    RestrictWorld: world_adventure
+    Lore: |
+      §a消耗此物品傳送你到人類領地─西月港
+  §5天賦重製書: 
+    Type: ENCHANTED_BOOK
+    Command: talentreset
+    UniqueId: true
+    PluginsPermission: mmrpg.talentreset
+    Lore: |
+      §a使用並消耗此書使你技能天賦重製。
+      §a只會影響你當前使用的種族。
+  §5生活職業天賦重製書: 
+    Type: ENCHANTED_BOOK
+    Command: lifetalentreset
+    PluginsPermission: mmrpg.lifetalentreset
+    Lore: |
+      §a使用並消耗此書使你生活職業天賦重製。
+      §a只會影響你當前使用的種族。
+  §5屬性重製書: 
+    Type: ENCHANTED_BOOK
+    Command: attrreset
+    UniqueId: true
+    PluginsPermission: mmrpg.attrreset
+    Lore: |
+      §a使用並消耗此書使你升級配點
+      §a的屬性重製。
+      §a只會影響你當前使用的種族。
+  §5人類種族書: 
+    Type: ENCHANTED_BOOK
+    Command: race %player 人類
+    PluginsPermission:  mmrpg.race
+    Lore: |
+      §a使用並消耗此書使你轉成人類
+      §a天賦也會從新開始，轉回舊的
+      §a種族則會回復你原先設定的天
+      §a賦，可利用不同種族來玩不同
+      §a你的自創職業。 
+  §6「英雄」大試煉競技場的副本任務書:
+      Type: ENCHANTED_BOOK
+      Command: sp 大試煉競技場
+      Lore: |
+        §a等級需求: 55
+        §a等級上限: 60
+        §a副本人數: 5~10
+        §a全隊在先集合組隊好，再點擊右鍵使用
+        §a可將你的隊伍送至副本內。
+        §9------------------------------------------
+        §f準備好挑戰兩隻巨型怪物了嗎？
+        §9------------------------------------------
